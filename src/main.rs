@@ -122,9 +122,9 @@ fn main() -> io::Result<()> {
 
     let mut quit: bool = false;
 
-    error = true;
-
     while !quit{
+        error = true;
+
         println!("Enter action:");
 
         input = "".to_string();
